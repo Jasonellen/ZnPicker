@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ZnPicker</title>
+  <style>
+    html,body{
+      margin:0;
+    }
+  </style>
+</head>
+<body>
+  <div id="ZnPicker"></div>
+  <script src='ZnPicker.js'></script>
+  <script>
+
+    var picker=new ZnPicker({
+      dataArea:{min:1,max:199,unit:'岁'},
+      // dataSource:[{name:'张三',id:1},{name:'李四',id:2},{name:'王五',id:3}],
+      title:'请选择年龄',
+      defaultSite: 122,
+      lineHeight:36
+    })
+    picker.show()
+    picker.onChange=function(data){
+      alert(data)
+    }
+  </script>
+</body>
+</html>
