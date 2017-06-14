@@ -1,6 +1,7 @@
 # ZnPicker
 ##### 移动端选择器开发，基于原生JS，无任何依赖，体积小（压缩后仅4k）
 ### 使用示例
+
   <body>
     <div id="ZnPicker"></div>
     <script src='ZnPicker.js'></script>
@@ -18,7 +19,9 @@
       }
     </script>
   </body>
+  
 ### 参数说明
+
 |Options/callBack|Description|Required|
 | :-----------: |:-------------:|------:|
 | title      | Picker标题 | false |
