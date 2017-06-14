@@ -11,7 +11,7 @@
     }
     this.title = option.title || '请选择'
     this.defaultSite = option.defaultSite || 1
-    this.lineHeight = option.lineHeight;
+    this.lineHeight = option.lineHeight || 36;
     this.arrLi=[]
     //直接执行初始化操作
     this.init()
